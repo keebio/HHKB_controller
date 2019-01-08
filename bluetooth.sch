@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
+EESchema Schematic File Version 4
 LIBS:HHKB_controller-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_2 P100
+L HHKB_controller-rescue:CONN_2 P100
 U 1 1 51AFD4A8
 P 4125 6625
 F 0 "P100" V 4075 6625 40  0000 C CNN
@@ -29,7 +28,7 @@ $EndComp
 Text Notes 3850 6900 0    60   ~ 0
 JST PH2
 $Comp
-L GND #PWR025
+L HHKB_controller-rescue:GND #PWR025
 U 1 1 51AFD4B7
 P 4725 6975
 F 0 "#PWR025" H 4725 6975 30  0001 C CNN
@@ -40,7 +39,7 @@ F 3 "" H 4725 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LTC4054 U4
+L HHKB_controller-rescue:LTC4054 U4
 U 1 1 51AFDC54
 P 5525 6625
 F 0 "U4" H 5525 6425 60  0000 C CNN
@@ -51,7 +50,7 @@ F 3 "" H 5525 6625 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L HT7750A U3
+L HHKB_controller-rescue:HT7750A U3
 U 1 1 51B35E76
 P 2700 4900
 F 0 "U3" H 2700 4700 60  0000 C CNN
@@ -62,7 +61,7 @@ F 3 "" H 2700 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L HHKB_controller-rescue:C C11
 U 1 1 51B35F33
 P 1250 2850
 F 0 "C11" H 1300 2950 50  0000 L CNN
@@ -73,7 +72,7 @@ F 3 "" H 1250 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L HHKB_controller-rescue:C C14
 U 1 1 51B35F42
 P 3300 2850
 F 0 "C14" H 3350 2950 50  0000 L CNN
@@ -84,7 +83,7 @@ F 3 "" H 3300 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPAPOL C15
+L HHKB_controller-rescue:CAPAPOL C15
 U 1 1 51B35F52
 P 4350 4850
 F 0 "C15" H 4400 4950 40  0000 L CNN
@@ -95,7 +94,7 @@ F 3 "" H 4350 4850 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPAPOL C12
+L HHKB_controller-rescue:CAPAPOL C12
 U 1 1 51B35F61
 P 1600 4850
 F 0 "C12" H 1650 4950 40  0000 L CNN
@@ -106,7 +105,7 @@ F 3 "" H 1600 4850 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L1
+L HHKB_controller-rescue:INDUCTOR_SMALL L1
 U 1 1 51B35FB0
 P 3900 4450
 F 0 "L1" H 3900 4550 50  0000 C CNN
@@ -119,7 +118,7 @@ $EndComp
 Text Label 4500 4450 0    60   ~ 0
 PSEL
 $Comp
-L GND #PWR026
+L HHKB_controller-rescue:GND #PWR026
 U 1 1 51B36189
 P 1600 5150
 F 0 "#PWR026" H 1600 5150 30  0001 C CNN
@@ -130,7 +129,7 @@ F 3 "" H 1600 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L HHKB_controller-rescue:GND #PWR027
 U 1 1 51B36198
 P 4350 5150
 F 0 "#PWR027" H 4350 5150 30  0001 C CNN
@@ -141,7 +140,7 @@ F 3 "" H 4350 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L HHKB_controller-rescue:GND #PWR028
 U 1 1 51B36208
 P 3400 5150
 F 0 "#PWR028" H 3400 5150 30  0001 C CNN
@@ -158,7 +157,7 @@ Text Notes 3650 5125 0    60   ~ 0
 Text GLabel 1150 4450 0    60   Input ~ 0
 5V_BOOST
 $Comp
-L GND #PWR029
+L HHKB_controller-rescue:GND #PWR029
 U 1 1 51B4212D
 P 1250 3150
 F 0 "#PWR029" H 1250 3150 30  0001 C CNN
@@ -169,7 +168,7 @@ F 3 "" H 1250 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L HHKB_controller-rescue:GND #PWR030
 U 1 1 51B4213C
 P 3300 3150
 F 0 "#PWR030" H 3300 3150 30  0001 C CNN
@@ -180,7 +179,7 @@ F 3 "" H 3300 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L HHKB_controller-rescue:GND #PWR031
 U 1 1 51B421C0
 P 1650 3150
 F 0 "#PWR031" H 1650 3150 30  0001 C CNN
@@ -199,7 +198,7 @@ Text Notes 1300 2400 2    60   ~ 0
 Text Notes 2375 700  2    60   ~ 0
 Bluetooth Module 5-3.3V Level Shifters
 $Comp
-L R R6
+L HHKB_controller-rescue:R R6
 U 1 1 51B42421
 P 950 1625
 F 0 "R6" V 1030 1625 50  0000 C CNN
@@ -210,7 +209,7 @@ F 3 "" H 950 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L HHKB_controller-rescue:R R7
 U 1 1 51B42452
 P 1850 1625
 F 0 "R7" V 1930 1625 50  0000 C CNN
@@ -221,7 +220,7 @@ F 3 "" H 1850 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L HHKB_controller-rescue:R R8
 U 1 1 51B42461
 P 4650 1100
 F 0 "R8" V 4730 1100 50  0000 C CNN
@@ -232,7 +231,7 @@ F 3 "" H 4650 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L HHKB_controller-rescue:R R9
 U 1 1 51B42470
 P 4650 1700
 F 0 "R9" V 4730 1700 50  0000 C CNN
@@ -243,7 +242,7 @@ F 3 "" H 4650 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L HHKB_controller-rescue:GND #PWR032
 U 1 1 51B4294A
 P 4650 2050
 F 0 "#PWR032" H 4650 2050 30  0001 C CNN
@@ -254,7 +253,7 @@ F 3 "" H 4650 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR033
+L HHKB_controller-rescue:+5V #PWR033
 U 1 1 51B42AA7
 P 1850 1025
 F 0 "#PWR033" H 1850 1115 20  0001 C CNN
@@ -265,7 +264,7 @@ F 3 "" H 1850 1025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR034
+L HHKB_controller-rescue:+3.3V #PWR034
 U 1 1 51B42AB6
 P 950 1025
 F 0 "#PWR034" H 950 985 30  0001 C CNN
@@ -288,7 +287,7 @@ Lipo Battery Charger
 Text Notes 10125 725  2    60   ~ 0
 Roving Networks RN42
 $Comp
-L LED D4
+L HHKB_controller-rescue:LED D4
 U 1 1 51B43D8A
 P 8475 5950
 F 0 "D4" H 8475 6050 50  0000 C CNN
@@ -299,7 +298,7 @@ F 3 "" H 8475 5950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L HHKB_controller-rescue:R R10
 U 1 1 51B43D99
 P 8275 5425
 F 0 "R10" V 8355 5425 50  0000 C CNN
@@ -310,7 +309,7 @@ F 3 "" H 8275 5425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L HHKB_controller-rescue:R R11
 U 1 1 51B43EF8
 P 6175 6975
 F 0 "R11" V 6255 6975 50  0000 C CNN
@@ -321,7 +320,7 @@ F 3 "" H 6175 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L HHKB_controller-rescue:GND #PWR035
 U 1 1 51B44001
 P 6175 7275
 F 0 "#PWR035" H 6175 7275 30  0001 C CNN
@@ -336,7 +335,7 @@ Charge current: Ichg = 1000V/Rprog
 Text Notes 750  4250 0    60   ~ 0
 5V Output
 $Comp
-L CONN_1 P111
+L HHKB_controller-rescue:CONN_1 P111
 U 1 1 51B89482
 P 7200 1150
 F 0 "P111" H 7280 1150 40  0000 L CNN
@@ -347,7 +346,7 @@ F 3 "" H 7200 1150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P112
+L HHKB_controller-rescue:CONN_1 P112
 U 1 1 51B89491
 P 7200 1300
 F 0 "P112" H 7280 1300 40  0000 L CNN
@@ -358,7 +357,7 @@ F 3 "" H 7200 1300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P110
+L HHKB_controller-rescue:CONN_1 P110
 U 1 1 51B89658
 P 7200 1000
 F 0 "P110" H 7280 1000 40  0000 L CNN
@@ -369,7 +368,7 @@ F 3 "" H 7200 1000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P113
+L HHKB_controller-rescue:CONN_1 P113
 U 1 1 51B89667
 P 7200 1450
 F 0 "P113" H 7280 1450 40  0000 L CNN
@@ -386,7 +385,7 @@ TX_33
 Text Notes 7000 2050 0    60   ~ 0
 BT UART pinouts
 $Comp
-L +3.3V #PWR036
+L HHKB_controller-rescue:+3.3V #PWR036
 U 1 1 51B8A63B
 P 6025 5050
 F 0 "#PWR036" H 6025 5010 30  0001 C CNN
@@ -397,7 +396,7 @@ F 3 "" H 6025 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L HHKB_controller-rescue:GND #PWR037
 U 1 1 51B8A64A
 P 7850 1550
 F 0 "#PWR037" H 7850 1550 30  0001 C CNN
@@ -408,7 +407,7 @@ F 3 "" H 7850 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P115
+L HHKB_controller-rescue:CONN_1 P115
 U 1 1 51B8ABD3
 P 7200 1750
 F 0 "P115" H 7280 1750 40  0000 L CNN
@@ -421,7 +420,7 @@ $EndComp
 Text Label 7750 1750 2    60   ~ 0
 RTS_33
 $Comp
-L C C18
+L HHKB_controller-rescue:C C18
 U 1 1 51B8BF5C
 P 6475 7025
 F 0 "C18" H 6525 7125 50  0000 L CNN
@@ -432,7 +431,7 @@ F 3 "" H 6475 7025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L HHKB_controller-rescue:GND #PWR038
 U 1 1 51B8BF6B
 P 6475 7275
 F 0 "#PWR038" H 6475 7275 30  0001 C CNN
@@ -443,7 +442,7 @@ F 3 "" H 6475 7275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODESCH D2
+L HHKB_controller-rescue:DIODESCH D2
 U 1 1 51B973BC
 P 2750 4450
 F 0 "D2" H 2750 4550 40  0000 C CNN
@@ -454,7 +453,7 @@ F 3 "" H 2750 4450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MOSFET_N Q1
+L HHKB_controller-rescue:MOSFET_N Q1
 U 1 1 51BB5234
 P 1400 1775
 F 0 "Q1" H 1410 1945 60  0000 R CNN
@@ -465,7 +464,7 @@ F 3 "" H 1400 1775 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L HHKB_controller-rescue:R R17
 U 1 1 51BE9662
 P 6200 3475
 F 0 "R17" V 6280 3475 50  0000 C CNN
@@ -476,7 +475,7 @@ F 3 "" H 6200 3475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L HHKB_controller-rescue:R R18
 U 1 1 51BE9671
 P 6200 4075
 F 0 "R18" V 6280 4075 50  0000 C CNN
@@ -491,7 +490,7 @@ ADC_LIPO
 Text Notes 4325 2400 0    60   ~ 0
 Voltage Divider for ADC
 $Comp
-L RN42 U5
+L HHKB_controller-rescue:RN42 U5
 U 1 1 52B6CBAC
 P 9625 1875
 F 0 "U5" H 10225 925 50  0000 C CNN
@@ -502,7 +501,7 @@ F 3 "" H 9625 1875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L HHKB_controller-rescue:GND #PWR039
 U 1 1 52B7B3EE
 P 9875 3325
 F 0 "#PWR039" H 9875 3325 30  0001 C CNN
@@ -535,7 +534,7 @@ RTS_33
 NoConn ~ 10225 1725
 NoConn ~ 9025 1625
 $Comp
-L R R16
+L HHKB_controller-rescue:R R16
 U 1 1 52B7F2BF
 P 10775 3700
 F 0 "R16" V 10855 3700 50  0000 C CNN
@@ -546,7 +545,7 @@ F 3 "" H 10775 3700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19
+L HHKB_controller-rescue:R R19
 U 1 1 52B7F2CE
 P 10225 3700
 F 0 "R19" V 10305 3700 50  0000 C CNN
@@ -559,7 +558,7 @@ $EndComp
 Text Label 10325 1525 0    60   ~ 0
 FACTORY_RESET
 $Comp
-L +3.3V #PWR040
+L HHKB_controller-rescue:+3.3V #PWR040
 U 1 1 52B7F387
 P 11075 3700
 F 0 "#PWR040" H 11075 3660 30  0001 C CNN
@@ -574,7 +573,7 @@ FACTORY_RESET
 Text Notes 9550 4275 0    60   ~ 0
 F.RST is not implemented,\nbe shorted with tweezer.\nON-OFF-ON-OFF-ON\nto restore factory default.\nPower on with turning ON.
 $Comp
-L +3.3V #PWR041
+L HHKB_controller-rescue:+3.3V #PWR041
 U 1 1 52B7F708
 P 7500 2400
 F 0 "#PWR041" H 7500 2360 30  0001 C CNN
@@ -585,7 +584,7 @@ F 3 "" H 7500 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L HHKB_controller-rescue:R R13
 U 1 1 52B7F726
 P 7125 2725
 F 0 "R13" V 7205 2725 50  0000 C CNN
@@ -603,7 +602,7 @@ NoConn ~ 9475 2875
 NoConn ~ 9275 2875
 NoConn ~ 9975 2875
 $Comp
-L R R1
+L HHKB_controller-rescue:R R1
 U 1 1 52B840D2
 P 2875 1625
 F 0 "R1" V 2955 1625 50  0000 C CNN
@@ -614,7 +613,7 @@ F 3 "" H 2875 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L HHKB_controller-rescue:R R12
 U 1 1 52B840D8
 P 3775 1625
 F 0 "R12" V 3855 1625 50  0000 C CNN
@@ -625,7 +624,7 @@ F 3 "" H 3775 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR042
+L HHKB_controller-rescue:+5V #PWR042
 U 1 1 52B840DE
 P 3775 1025
 F 0 "#PWR042" H 3775 1115 20  0001 C CNN
@@ -636,7 +635,7 @@ F 3 "" H 3775 1025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR043
+L HHKB_controller-rescue:+3.3V #PWR043
 U 1 1 52B840E4
 P 2875 1025
 F 0 "#PWR043" H 2875 985 30  0001 C CNN
@@ -651,7 +650,7 @@ RTS_33
 Text GLabel 3925 1875 2    60   Input ~ 0
 BT_RTS
 $Comp
-L MOSFET_N Q3
+L HHKB_controller-rescue:MOSFET_N Q3
 U 1 1 52B840EC
 P 3325 1775
 F 0 "Q3" H 3335 1945 60  0000 R CNN
@@ -679,7 +678,7 @@ Power Source Selector
 Text GLabel 950  6250 0    60   Input ~ 0
 VUSB
 $Comp
-L R R22
+L HHKB_controller-rescue:R R22
 U 1 1 5310CA81
 P 2650 7150
 F 0 "R22" V 2730 7150 50  0000 C CNN
@@ -690,7 +689,7 @@ F 3 "" H 2650 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L HHKB_controller-rescue:R R21
 U 1 1 5310CA90
 P 2300 6850
 F 0 "R21" V 2380 6850 50  0000 C CNN
@@ -701,7 +700,7 @@ F 3 "" H 2300 6850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MOS_P Q5
+L HHKB_controller-rescue:MOS_P Q5
 U 1 1 5310CAAE
 P 2950 6850
 F 0 "Q5" H 2950 7040 60  0000 R CNN
@@ -714,7 +713,7 @@ $EndComp
 Text Label 3350 6250 0    60   ~ 0
 PSEL
 $Comp
-L GND #PWR044
+L HHKB_controller-rescue:GND #PWR044
 U 1 1 5310D0A7
 P 2650 7450
 F 0 "#PWR044" H 2650 7450 30  0001 C CNN
@@ -725,7 +724,7 @@ F 3 "" H 2650 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR045
+L HHKB_controller-rescue:+5V #PWR045
 U 1 1 5310EAB1
 P 1400 4300
 F 0 "#PWR045" H 1400 4390 20  0001 C CNN
@@ -736,7 +735,7 @@ F 3 "" H 1400 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR046
+L HHKB_controller-rescue:+5V #PWR046
 U 1 1 5310EB6D
 P 950 2550
 F 0 "#PWR046" H 950 2640 20  0001 C CNN
@@ -753,7 +752,7 @@ Text Notes 8925 5700 2    60   ~ 0
 Text Label 10325 5200 0    60   ~ 0
 LIPO_RAW
 $Comp
-L +3.3V #PWR047
+L HHKB_controller-rescue:+3.3V #PWR047
 U 1 1 5315633E
 P 10725 5550
 F 0 "#PWR047" H 10725 5510 30  0001 C CNN
@@ -770,7 +769,7 @@ LIPO_SW
 Text Label 3925 6175 0    60   ~ 0
 LIPO_RAW
 $Comp
-L +3.3V #PWR048
+L HHKB_controller-rescue:+3.3V #PWR048
 U 1 1 5316AB09
 P 8325 2225
 F 0 "#PWR048" H 8325 2185 30  0001 C CNN
@@ -783,7 +782,7 @@ $EndComp
 Text Notes 9125 4850 0    60   ~ 0
 Switch BT/USB
 $Comp
-L R R23
+L HHKB_controller-rescue:R R23
 U 1 1 53177DD7
 P 5250 1100
 F 0 "R23" V 5330 1100 50  0000 C CNN
@@ -794,7 +793,7 @@ F 3 "" H 5250 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L HHKB_controller-rescue:R R24
 U 1 1 53177DDD
 P 5250 1700
 F 0 "R24" V 5330 1700 50  0000 C CNN
@@ -805,7 +804,7 @@ F 3 "" H 5250 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L HHKB_controller-rescue:GND #PWR049
 U 1 1 53177DE3
 P 5250 2050
 F 0 "#PWR049" H 5250 2050 30  0001 C CNN
@@ -824,7 +823,7 @@ LIPO_RAW
 Text GLabel 7300 4200 2    60   Input ~ 0
 BT_INDICATOR
 $Comp
-L R R25
+L HHKB_controller-rescue:R R25
 U 1 1 531B36B1
 P 7500 2725
 F 0 "R25" V 7580 2725 50  0000 C CNN
@@ -835,7 +834,7 @@ F 3 "" H 7500 2725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D10
+L HHKB_controller-rescue:LED D10
 U 1 1 531B36CF
 P 7700 3275
 F 0 "D10" H 7700 3375 50  0000 C CNN
@@ -848,7 +847,7 @@ $EndComp
 Text Notes 8125 3025 2    60   ~ 0
 ※Select one of two
 $Comp
-L CONN_1 P114
+L HHKB_controller-rescue:CONN_1 P114
 U 1 1 531B5A15
 P 7200 1600
 F 0 "P114" H 7280 1600 40  0000 L CNN
@@ -863,7 +862,7 @@ CTS_33
 Text Notes 9800 6300 0    60   ~ 0
 On: Bluetooth mode\nOff: USB mode or BT off
 $Comp
-L SW_DPDT SW2
+L HHKB_controller-rescue:SW_DPDT SW2
 U 1 1 531D7FAB
 P 9975 5500
 F 0 "SW2" H 9975 5900 60  0000 C CNN
@@ -884,7 +883,7 @@ MBR0520LT1 20V 1A\nRMB160M-30 30V 1A*
 Text Notes 3100 4275 0    60   ~ 0
 Sumida CD54−470L 0.72A\nSumida CDRH5D28NP-470NC 0.62A\nSumida CDRH6D38NP-470NC 0.95A*\nTOKO #A921CY-470M 0.89A
 $Comp
-L DIODESCH D11
+L HHKB_controller-rescue:DIODESCH D11
 U 1 1 53B54501
 P 2300 6250
 F 0 "D11" H 2450 6300 40  0000 C CNN
@@ -895,7 +894,7 @@ F 3 "" H 2300 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L HHKB_controller-rescue:C C16
 U 1 1 53B56B73
 P 4525 7025
 F 0 "C16" H 4575 7125 50  0000 L CNN
@@ -906,7 +905,7 @@ F 3 "" H 4525 7025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L HHKB_controller-rescue:GND #PWR050
 U 1 1 53B572EF
 P 4525 7275
 F 0 "#PWR050" H 4525 7275 30  0001 C CNN
@@ -920,7 +919,7 @@ NoConn ~ 11025 2975
 Text Label 8175 1525 0    60   ~ 0
 CONN
 $Comp
-L R R14
+L HHKB_controller-rescue:R R14
 U 1 1 53B62185
 P 5900 1100
 F 0 "R14" V 5980 1100 50  0000 C CNN
@@ -935,7 +934,7 @@ BT_CONN
 Text Label 5575 1400 0    60   ~ 0
 CONN
 $Comp
-L R R20
+L HHKB_controller-rescue:R R20
 U 1 1 53C6B426
 P 5900 1700
 F 0 "R20" V 5980 1700 50  0000 C CNN
@@ -946,7 +945,7 @@ F 3 "" H 5900 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR051
+L HHKB_controller-rescue:GND #PWR051
 U 1 1 53C70129
 P 5900 2050
 F 0 "#PWR051" H 5900 2050 30  0001 C CNN
@@ -971,7 +970,7 @@ NoConn ~ 10225 1425
 NoConn ~ 9025 1425
 NoConn ~ 9025 1825
 $Comp
-L PWR_FLAG #FLG052
+L HHKB_controller-rescue:PWR_FLAG #FLG052
 U 1 1 531F4430
 P 10725 5675
 F 0 "#FLG052" H 10725 5770 30  0001 C CNN
@@ -984,7 +983,7 @@ $EndComp
 Text Label 8350 5100 0    60   ~ 0
 PSEL
 $Comp
-L LED_DUAL D9
+L HHKB_controller-rescue:LED_DUAL D9
 U 1 1 540D8D13
 P 7175 3275
 F 0 "D9" H 7175 3475 50  0000 C CNN
@@ -995,7 +994,7 @@ F 3 "" H 7175 3375 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_DUAL D3
+L HHKB_controller-rescue:LED_DUAL D3
 U 1 1 540E541B
 P 7975 5950
 F 0 "D3" H 7975 6150 50  0000 C CNN
@@ -1010,7 +1009,7 @@ Text Label 5000 6350 0    60   ~ 0
 Text Label 8325 6350 0    60   ~ 0
 ~CHRG
 $Comp
-L GND #PWR053
+L HHKB_controller-rescue:GND #PWR053
 U 1 1 540E71E7
 P 7925 6300
 F 0 "#PWR053" H 7925 6300 30  0001 C CNN
@@ -1021,7 +1020,7 @@ F 3 "" H 7925 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L HHKB_controller-rescue:R R26
 U 1 1 540E7519
 P 7925 5425
 F 0 "R26" V 8005 5425 50  0000 C CNN
@@ -1040,7 +1039,7 @@ Power Indicator
 Text Label 5900 6350 0    60   ~ 0
 VUSB_IN
 $Comp
-L MOSFET_N Q10
+L HHKB_controller-rescue:MOSFET_N Q10
 U 1 1 54111581
 P 5600 3325
 F 0 "Q10" H 5610 3495 60  0000 R CNN
@@ -1051,7 +1050,7 @@ F 3 "" H 5600 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R30
+L HHKB_controller-rescue:R R30
 U 1 1 541122C6
 P 5300 3650
 F 0 "R30" V 5380 3650 50  0000 C CNN
@@ -1062,7 +1061,7 @@ F 3 "" H 5300 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L HHKB_controller-rescue:GND #PWR054
 U 1 1 54112C18
 P 5300 3950
 F 0 "#PWR054" H 5300 3950 30  0001 C CNN
@@ -1081,7 +1080,7 @@ X5R
 Text Notes 1350 3075 0    60   ~ 0
 X5R
 $Comp
-L GND #PWR055
+L HHKB_controller-rescue:GND #PWR055
 U 1 1 51BE968F
 P 6200 4375
 F 0 "#PWR055" H 6200 4375 30  0001 C CNN
@@ -1092,7 +1091,7 @@ F 3 "" H 6200 4375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_P Q4
+L HHKB_controller-rescue:MOSFET_P Q4
 U 1 1 5452928D
 P 6100 2950
 F 0 "Q4" H 6100 3140 60  0000 R CNN
@@ -1103,7 +1102,7 @@ F 3 "" H 6100 2950 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR056
+L HHKB_controller-rescue:GND #PWR056
 U 1 1 5452B28D
 P 5700 3575
 F 0 "#PWR056" H 5700 3575 30  0001 C CNN
@@ -1114,7 +1113,7 @@ F 3 "" H 5700 3575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L HHKB_controller-rescue:R R27
 U 1 1 5452E6B7
 P 5700 2775
 F 0 "R27" V 5780 2775 50  0000 C CNN
@@ -1127,7 +1126,7 @@ $EndComp
 Text Notes 4300 7700 0    60   ~ 12
 NOTE: Use 73832. 73831 leaks from VCC\nwhen no USB power
 $Comp
-L CONN_1 P15
+L HHKB_controller-rescue:CONN_1 P15
 U 1 1 54862C03
 P 6175 5325
 F 0 "P15" H 6255 5325 40  0000 L CNN
@@ -1138,7 +1137,7 @@ F 3 "" H 6175 5325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P13
+L HHKB_controller-rescue:CONN_1 P13
 U 1 1 54862C9E
 P 6175 5225
 F 0 "P13" H 6255 5225 40  0000 L CNN
@@ -1525,7 +1524,7 @@ Wire Notes Line
 Connection ~ 6025 5325
 Connection ~ 6025 5225
 $Comp
-L +5V #PWR057
+L HHKB_controller-rescue:+5V #PWR057
 U 1 1 5486405C
 P 5575 5050
 F 0 "#PWR057" H 5575 5140 20  0001 C CNN
@@ -1538,7 +1537,7 @@ $EndComp
 Wire Wire Line
 	5575 5050 5575 5325
 $Comp
-L CONN_1 P14
+L HHKB_controller-rescue:CONN_1 P14
 U 1 1 54864365
 P 5725 5325
 F 0 "P14" H 5805 5325 40  0000 L CNN
@@ -1549,7 +1548,7 @@ F 3 "" H 5725 5325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P12
+L HHKB_controller-rescue:CONN_1 P12
 U 1 1 5486436B
 P 5725 5225
 F 0 "P12" H 5805 5225 40  0000 L CNN
@@ -1564,7 +1563,7 @@ Connection ~ 5575 5225
 Text Notes 5450 4825 0    60   ~ 0
 Current measure
 $Comp
-L +3.3V #PWR058
+L HHKB_controller-rescue:+3.3V #PWR058
 U 1 1 54867546
 P 7850 950
 F 0 "#PWR058" H 7850 910 30  0001 C CNN
@@ -1577,7 +1576,7 @@ $EndComp
 Wire Wire Line
 	7850 1000 7850 950 
 $Comp
-L LDO_REGULATOR U2
+L HHKB_controller-rescue:LDO_REGULATOR U2
 U 1 1 51B41FD3
 P 2300 2750
 F 0 "U2" H 2300 2550 60  0000 C CNN
@@ -1589,7 +1588,7 @@ F 3 "" H 2300 2750 60  0000 C CNN
 $EndComp
 NoConn ~ 2850 2850
 $Comp
-L D D5
+L HHKB_controller-rescue:D D5
 U 1 1 57789BAF
 P 4725 6275
 F 0 "D5" V 4575 6225 60  0000 C CNN

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# HHKB_controller-rescue_+3.3V
+# +3.3V
 #
-DEF HHKB_controller-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF +3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -40 30 H I C CNN
-F1 "HHKB_controller-rescue_+3.3V" 0 110 30 H V C CNN
+F1 "+3.3V" 0 110 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -15,11 +15,11 @@ X +3.3V 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_+5V
+# +5V
 #
-DEF HHKB_controller-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -30 20 H I C CNN
-F1 "HHKB_controller-rescue_+5V" 0 110 30 H V C CNN
+F1 "+5V" 0 110 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -29,11 +29,11 @@ X +5V 1 0 0 0 U 10 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_ATMEGA32U4
+# ATMEGA32U4
 #
-DEF HHKB_controller-rescue_ATMEGA32U4 U 0 40 Y Y 1 F N
+DEF ATMEGA32U4 U 0 40 Y Y 1 F N
 F0 "U" 0 -1250 60 H V C CNN
-F1 "HHKB_controller-rescue_ATMEGA32U4" 0 1250 60 H V C CNN
+F1 "ATMEGA32U4" 0 1250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -85,11 +85,11 @@ X PB1/SCK 9 -1050 250 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_C
+# C
 #
-DEF HHKB_controller-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "HHKB_controller-rescue_C" 50 -100 50 H V L CNN
+F1 "C" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -105,11 +105,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CAPAPOL
+# CAPAPOL
 #
-DEF HHKB_controller-rescue_CAPAPOL C 0 10 N N 1 F N
+DEF CAPAPOL C 0 10 N N 1 F N
 F0 "C" 50 100 40 H V L CNN
-F1 "HHKB_controller-rescue_CAPAPOL" 50 -100 40 H V L CNN
+F1 "CAPAPOL" 50 -100 40 H V L CNN
 F2 "" 100 -150 30 H V C CNN
 F3 "" 0 0 300 H V C CNN
 $FPLIST
@@ -124,11 +124,11 @@ X ~ 2 0 -200 150 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CONN_1
+# CONN_1
 #
-DEF ~HHKB_controller-rescue_CONN_1 P 0 30 N N 1 F N
+DEF ~CONN_1 P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V L CNN
-F1 "HHKB_controller-rescue_CONN_1" 0 55 30 H I C CNN
+F1 "CONN_1" 0 55 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -138,11 +138,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CONN_13
+# CONN_13
 #
-DEF HHKB_controller-rescue_CONN_13 P 0 40 Y N 1 F N
+DEF CONN_13 P 0 40 Y N 1 F N
 F0 "P" -40 0 60 V V C CNN
-F1 "HHKB_controller-rescue_CONN_13" 70 0 60 V V C CNN
+F1 "CONN_13" 70 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -163,11 +163,11 @@ X P9 9 -350 -200 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CONN_15
+# CONN_15
 #
-DEF HHKB_controller-rescue_CONN_15 P 0 40 Y N 1 F N
+DEF CONN_15 P 0 40 Y N 1 F N
 F0 "P" -30 50 60 V V C CNN
-F1 "HHKB_controller-rescue_CONN_15" 80 50 60 V V C CNN
+F1 "CONN_15" 80 50 60 V V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 DRAW
@@ -190,11 +190,11 @@ X P9 9 -350 -100 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CONN_2
+# CONN_2
 #
-DEF HHKB_controller-rescue_CONN_2 P 0 40 Y N 1 F N
+DEF CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "HHKB_controller-rescue_CONN_2" 50 0 40 V V C CNN
+F1 "CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -204,11 +204,11 @@ X PM 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_CONN_3X2
+# CONN_3X2
 #
-DEF HHKB_controller-rescue_CONN_3X2 P 0 40 Y N 1 F N
+DEF CONN_3X2 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "HHKB_controller-rescue_CONN_3X2" 0 0 40 V V C CNN
+F1 "CONN_3X2" 0 0 40 V V C CNN
 F2 "" 0 -50 60 H V C CNN
 F3 "" 0 -50 60 H V C CNN
 DRAW
@@ -222,11 +222,11 @@ X 6 6 400 -100 300 L 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_D
+# D
 #
-DEF ~HHKB_controller-rescue_D D 0 40 Y Y 1 F N
+DEF ~D D 0 40 Y Y 1 F N
 F0 "D" -150 -50 60 V V C CNN
-F1 "HHKB_controller-rescue_D" 150 -50 60 V I C CNN
+F1 "D" 150 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -237,11 +237,11 @@ X ~ 2 0 50 50 D 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_DIODESCH
+# DIODESCH
 #
-DEF HHKB_controller-rescue_DIODESCH D 0 40 N N 1 F N
+DEF DIODESCH D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "HHKB_controller-rescue_DIODESCH" 0 -100 40 H V C CNN
+F1 "DIODESCH" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -256,11 +256,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_GND
+# GND
 #
-DEF ~HHKB_controller-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF ~GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "HHKB_controller-rescue_GND" 0 -70 30 H I C CNN
+F1 "GND" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -269,11 +269,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_HT7750A
+# HT7750A
 #
-DEF HHKB_controller-rescue_HT7750A U 0 40 Y Y 1 F N
+DEF HT7750A U 0 40 Y Y 1 F N
 F0 "U" 0 -200 60 H V C CNN
-F1 "HHKB_controller-rescue_HT7750A" 0 200 60 H V C CNN
+F1 "HT7750A" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -286,11 +286,11 @@ X LX 5 550 100 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_INDUCTOR_SMALL
+# INDUCTOR_SMALL
 #
-DEF HHKB_controller-rescue_INDUCTOR_SMALL L 0 0 N N 1 F N
+DEF INDUCTOR_SMALL L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "HHKB_controller-rescue_INDUCTOR_SMALL" 0 -50 50 H V C CNN
+F1 "INDUCTOR_SMALL" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -303,11 +303,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_JUMPER
+# JUMPER
 #
-DEF HHKB_controller-rescue_JUMPER JP 0 30 Y N 1 F N
+DEF JUMPER JP 0 30 Y N 1 F N
 F0 "JP" 0 150 60 H V C CNN
-F1 "HHKB_controller-rescue_JUMPER" 0 -80 40 H V C CNN
+F1 "JUMPER" 0 -80 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -319,11 +319,11 @@ X 2 2 300 0 165 L 60 60 0 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_LDO_REGULATOR
+# LDO_REGULATOR
 #
-DEF HHKB_controller-rescue_LDO_REGULATOR U 0 40 Y Y 1 F N
+DEF LDO_REGULATOR U 0 40 Y Y 1 F N
 F0 "U" 0 -200 60 H V C CNN
-F1 "HHKB_controller-rescue_LDO_REGULATOR" 0 200 60 H V C CNN
+F1 "LDO_REGULATOR" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -336,11 +336,11 @@ X OUT 5 550 100 300 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_LED
+# LED
 #
-DEF HHKB_controller-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "HHKB_controller-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -362,11 +362,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_LED_DUAL
+# LED_DUAL
 #
-DEF HHKB_controller-rescue_LED_DUAL D 0 40 Y N 1 F N
+DEF LED_DUAL D 0 40 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "HHKB_controller-rescue_LED_DUAL" 0 -150 50 H V C CNN
+F1 "LED_DUAL" 0 -150 50 H V C CNN
 F2 "" 0 100 60 H V C CNN
 F3 "" 0 100 60 H V C CNN
 DRAW
@@ -385,11 +385,11 @@ X K 4 200 -50 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_LTC4054
+# LTC4054
 #
-DEF HHKB_controller-rescue_LTC4054 U 0 40 Y Y 1 F N
+DEF LTC4054 U 0 40 Y Y 1 F N
 F0 "U" 0 -200 60 H V C CNN
-F1 "HHKB_controller-rescue_LTC4054" 0 200 60 H V C CNN
+F1 "LTC4054" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -402,11 +402,11 @@ X PROG 5 550 100 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_MOSFET_N
+# MOSFET_N
 #
-DEF HHKB_controller-rescue_MOSFET_N Q 0 0 N Y 1 F N
+DEF MOSFET_N Q 0 0 N Y 1 F N
 F0 "Q" 10 170 60 H V R CNN
-F1 "HHKB_controller-rescue_MOSFET_N" 10 -150 60 H V R CNN
+F1 "MOSFET_N" 10 -150 60 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -422,11 +422,11 @@ X S S 100 -200 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_MOSFET_P
+# MOSFET_P
 #
-DEF HHKB_controller-rescue_MOSFET_P Q 0 40 Y N 1 F N
+DEF MOSFET_P Q 0 40 Y N 1 F N
 F0 "Q" 0 190 60 H V R CNN
-F1 "HHKB_controller-rescue_MOSFET_P" 0 -180 60 H V R CNN
+F1 "MOSFET_P" 0 -180 60 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -443,11 +443,11 @@ X S S 100 -200 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_MOS_P
+# MOS_P
 #
-DEF HHKB_controller-rescue_MOS_P Q 0 40 Y N 1 F N
+DEF MOS_P Q 0 40 Y N 1 F N
 F0 "Q" 0 190 60 H V R CNN
-F1 "HHKB_controller-rescue_MOS_P" 0 -180 60 H V R CNN
+F1 "MOS_P" 0 -180 60 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -464,11 +464,11 @@ X S S 100 -200 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_PPTC
+# PPTC
 #
-DEF HHKB_controller-rescue_PPTC F 0 0 N Y 1 F N
+DEF PPTC F 0 0 N Y 1 F N
 F0 "F" -50 100 50 H V C CNN
-F1 "HHKB_controller-rescue_PPTC" 0 -100 50 H V C CNN
+F1 "PPTC" 0 -100 50 H V C CNN
 F2 "" 0 0 60 V V C CNN
 F3 "" 0 0 60 V V C CNN
 $FPLIST
@@ -484,11 +484,11 @@ X ~ 2 250 0 100 L 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF HHKB_controller-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 270 30 H I C CNN
-F1 "HHKB_controller-rescue_PWR_FLAG" 0 230 30 H V C CNN
+F1 "PWR_FLAG" 0 230 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -498,11 +498,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_R
+# R
 #
-DEF HHKB_controller-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "HHKB_controller-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -519,11 +519,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_RN42
+# RN42
 #
-DEF HHKB_controller-rescue_RN42 U 0 40 Y Y 1 F N
+DEF RN42 U 0 40 Y Y 1 F N
 F0 "U" 600 -950 50 H V C CNN
-F1 "HHKB_controller-rescue_RN42" 0 950 50 H V C CNN
+F1 "RN42" 0 950 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -563,11 +563,11 @@ X PCM_IN 9 -600 -250 100 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_SW_DPDT
+# SW_DPDT
 #
-DEF HHKB_controller-rescue_SW_DPDT SW 0 40 Y Y 1 F N
+DEF SW_DPDT SW 0 40 Y Y 1 F N
 F0 "SW" 0 400 60 H V C CNN
-F1 "HHKB_controller-rescue_SW_DPDT" 0 -400 60 H V C CNN
+F1 "SW_DPDT" 0 -400 60 H V C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -657,11 +657,11 @@ X ~ 6 300 -250 118 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_SW_PUSH
+# SW_PUSH
 #
-DEF HHKB_controller-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "HHKB_controller-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -672,11 +672,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_USB_mini_micro_B
+# USB_mini_micro_B
 #
-DEF ~HHKB_controller-rescue_USB_mini_micro_B J 0 40 Y Y 1 F N
+DEF ~USB_mini_micro_B J 0 40 Y Y 1 F N
 F0 "J" -400 -50 60 H V C CNN
-F1 "HHKB_controller-rescue_USB_mini_micro_B" -150 250 60 H I C CNN
+F1 "USB_mini_micro_B" -150 250 60 H I C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -690,11 +690,11 @@ X SHIELD 6 150 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HHKB_controller-rescue_XTAL
+# XTAL
 #
-DEF HHKB_controller-rescue_XTAL X 0 40 N N 1 F N
+DEF XTAL X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "HHKB_controller-rescue_XTAL" 0 -150 60 H V C CNN
+F1 "XTAL" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

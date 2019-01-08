@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
+EESchema Schematic File Version 4
 LIBS:HHKB_controller-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -82,7 +81,7 @@ PD1
 Text Label 5350 3100 0    60   ~ 0
 PD0
 $Comp
-L GND #PWR01
+L HHKB_controller-rescue:GND #PWR01
 U 1 1 4EBA913C
 P 3950 3850
 F 0 "#PWR01" H 3950 3850 30  0001 C CNN
@@ -93,7 +92,7 @@ F 3 "" H 3950 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L HHKB_controller-rescue:GND #PWR02
 U 1 1 4EBA35B3
 P 8450 3850
 F 0 "#PWR02" H 8450 3850 30  0001 C CNN
@@ -104,7 +103,7 @@ F 3 "" H 8450 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L HHKB_controller-rescue:GND #PWR03
 U 1 1 4EBA3599
 P 8950 3850
 F 0 "#PWR03" H 8950 3850 30  0001 C CNN
@@ -115,7 +114,7 @@ F 3 "" H 8950 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L HHKB_controller-rescue:GND #PWR04
 U 1 1 4EBA3538
 P 1900 2100
 F 0 "#PWR04" H 1900 2100 30  0001 C CNN
@@ -126,7 +125,7 @@ F 3 "" H 1900 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L HHKB_controller-rescue:GND #PWR05
 U 1 1 4EBA3506
 P 8700 3850
 F 0 "#PWR05" H 8700 3850 30  0001 C CNN
@@ -137,7 +136,7 @@ F 3 "" H 8700 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L HHKB_controller-rescue:GND #PWR06
 U 1 1 4EBA3501
 P 8200 3850
 F 0 "#PWR06" H 8200 3850 30  0001 C CNN
@@ -148,7 +147,7 @@ F 3 "" H 8200 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L HHKB_controller-rescue:GND #PWR07
 U 1 1 4EBA34E8
 P 7900 3850
 F 0 "#PWR07" H 7900 3850 30  0001 C CNN
@@ -159,7 +158,7 @@ F 3 "" H 7900 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L HHKB_controller-rescue:GND #PWR08
 U 1 1 4EBA3454
 P 4950 3850
 F 0 "#PWR08" H 4950 3850 30  0001 C CNN
@@ -170,7 +169,7 @@ F 3 "" H 4950 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA32U4 U1
+L HHKB_controller-rescue:ATMEGA32U4 U1
 U 1 1 4EB8BB68
 P 6700 2450
 F 0 "U1" H 6700 1200 60  0000 C CNN
@@ -181,7 +180,7 @@ F 3 "" H 6700 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR09
+L HHKB_controller-rescue:+5V #PWR09
 U 1 1 4EBA2BA0
 P 8200 1000
 F 0 "#PWR09" H 8200 970 20  0001 C CNN
@@ -192,7 +191,7 @@ F 3 "" H 8200 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR010
+L HHKB_controller-rescue:+5V #PWR010
 U 1 1 4EBA2B28
 P 3700 2300
 F 0 "#PWR010" H 3700 2270 20  0001 C CNN
@@ -203,7 +202,7 @@ F 3 "" H 3700 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
+L HHKB_controller-rescue:+5V #PWR011
 U 1 1 4EB8CC7B
 P 2275 3500
 F 0 "#PWR011" H 2275 3470 20  0001 C CNN
@@ -214,7 +213,7 @@ F 3 "" H 2275 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L HHKB_controller-rescue:C C4
 U 1 1 4EB8BB67
 P 4150 2150
 F 0 "C4" H 4200 2250 50  0000 L CNN
@@ -225,7 +224,7 @@ F 3 "" H 4150 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L HHKB_controller-rescue:C C1
 U 1 1 4EB8BB66
 P 2200 2200
 F 0 "C1" H 2250 2300 50  0000 L CNN
@@ -236,7 +235,7 @@ F 3 "" H 2200 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L HHKB_controller-rescue:C C7
 U 1 1 4EB8BB65
 P 8200 3600
 F 0 "C7" H 8250 3700 50  0000 L CNN
@@ -247,7 +246,7 @@ F 3 "" H 8200 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L HHKB_controller-rescue:C C8
 U 1 1 4EB8BB64
 P 8450 3600
 F 0 "C8" H 8500 3700 50  0000 L CNN
@@ -258,7 +257,7 @@ F 3 "" H 8450 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L HHKB_controller-rescue:C C9
 U 1 1 4EB8BB63
 P 8700 3600
 F 0 "C9" H 8750 3700 50  0000 L CNN
@@ -269,7 +268,7 @@ F 3 "" H 8700 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L HHKB_controller-rescue:R R2
 U 1 1 4EB8BB62
 P 3650 1600
 F 0 "R2" V 3700 1800 50  0000 C CNN
@@ -280,7 +279,7 @@ F 3 "" H 3650 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L HHKB_controller-rescue:R R3
 U 1 1 4EB8BB61
 P 3650 1700
 F 0 "R3" V 3700 1900 50  0000 C CNN
@@ -291,7 +290,7 @@ F 3 "" H 3650 1700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L HHKB_controller-rescue:R R4
 U 1 1 4EB8BB60
 P 8950 3550
 F 0 "R4" V 9030 3550 50  0000 C CNN
@@ -302,7 +301,7 @@ F 3 "" H 8950 3550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW_PUSH SW1
+L HHKB_controller-rescue:SW_PUSH SW1
 U 1 1 4EB8BB5F
 P 4450 2600
 F 0 "SW1" H 4600 2710 50  0000 C CNN
@@ -313,7 +312,7 @@ F 3 "" H 4450 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L HHKB_controller-rescue:GND #PWR012
 U 1 1 4EB8BB5A
 P 3700 3850
 F 0 "#PWR012" H 3700 3850 30  0001 C CNN
@@ -324,7 +323,7 @@ F 3 "" H 3700 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L HHKB_controller-rescue:C C5
 U 1 1 4EB8BB59
 P 4350 3600
 F 0 "C5" H 4400 3700 50  0000 L CNN
@@ -335,7 +334,7 @@ F 3 "" H 4350 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L HHKB_controller-rescue:C C6
 U 1 1 4EB8BB58
 P 4950 3600
 F 0 "C6" H 5000 3700 50  0000 L CNN
@@ -346,7 +345,7 @@ F 3 "" H 4950 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L HHKB_controller-rescue:C C3
 U 1 1 4EB8BB57
 P 3700 3600
 F 0 "C3" H 3750 3700 50  0000 L CNN
@@ -359,7 +358,7 @@ $EndComp
 Text Label 5350 2600 0    60   ~ 0
 ~RESET
 $Comp
-L GND #PWR013
+L HHKB_controller-rescue:GND #PWR013
 U 1 1 4EB8BB49
 P 4150 2400
 F 0 "#PWR013" H 4150 2400 30  0001 C CNN
@@ -370,7 +369,7 @@ F 3 "" H 4150 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L HHKB_controller-rescue:GND #PWR014
 U 1 1 4EB8BB48
 P 4150 3850
 F 0 "#PWR014" H 4150 3850 30  0001 C CNN
@@ -381,7 +380,7 @@ F 3 "" H 4150 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L HHKB_controller-rescue:GND #PWR015
 U 1 1 4EB8BB47
 P 4350 3850
 F 0 "#PWR015" H 4350 3850 30  0001 C CNN
@@ -392,7 +391,7 @@ F 3 "" H 4350 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P5
+L HHKB_controller-rescue:CONN_1 P5
 U 1 1 517F61E2
 P 10450 5250
 F 0 "P5" H 10530 5250 40  0000 L CNN
@@ -403,7 +402,7 @@ F 3 "" H 10450 5250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P1
+L HHKB_controller-rescue:CONN_1 P1
 U 1 1 517F625F
 P 1150 2525
 F 0 "P1" H 1230 2525 40  0000 L CNN
@@ -414,7 +413,7 @@ F 3 "" H 1150 2525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P2
+L HHKB_controller-rescue:CONN_1 P2
 U 1 1 517F6275
 P 1150 2625
 F 0 "P2" H 1230 2625 40  0000 L CNN
@@ -425,7 +424,7 @@ F 3 "" H 1150 2625 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P3
+L HHKB_controller-rescue:CONN_1 P3
 U 1 1 517F6290
 P 1150 2725
 F 0 "P3" H 1230 2725 40  0000 L CNN
@@ -436,7 +435,7 @@ F 3 "" H 1150 2725 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P4
+L HHKB_controller-rescue:CONN_1 P4
 U 1 1 517F629F
 P 1150 2825
 F 0 "P4" H 1230 2825 40  0000 L CNN
@@ -453,7 +452,7 @@ Ucap +/-10%
 Text Notes 3500 1850 0    60   Italic 0
 +/-5%
 $Comp
-L LED D1
+L HHKB_controller-rescue:LED D1
 U 1 1 51863503
 P 9450 3000
 F 0 "D1" H 9450 3100 50  0000 C CNN
@@ -464,7 +463,7 @@ F 3 "" H 9450 3000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L HHKB_controller-rescue:R R5
 U 1 1 51863512
 P 9450 3550
 F 0 "R5" V 9530 3550 50  0000 C CNN
@@ -475,7 +474,7 @@ F 3 "" H 9450 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L HHKB_controller-rescue:GND #PWR016
 U 1 1 51863521
 P 9450 3850
 F 0 "#PWR016" H 9450 3850 30  0001 C CNN
@@ -490,7 +489,7 @@ PD6
 Text Notes 9250 4100 0    60   Italic 0
 Optional\nTeensy compatible LED
 $Comp
-L CONN_13 CN2
+L HHKB_controller-rescue:CONN_13 CN2
 U 1 1 51978C41
 P 1925 6450
 F 0 "CN2" V 1885 6450 60  0000 C CNN
@@ -541,7 +540,7 @@ COL enable
 Text Label 10900 5250 2    60   ~ 0
 PD1
 $Comp
-L CONN_1 P6
+L HHKB_controller-rescue:CONN_1 P6
 U 1 1 517F61D5
 P 10450 5350
 F 0 "P6" H 10530 5350 40  0000 L CNN
@@ -554,7 +553,7 @@ $EndComp
 Text Label 10900 5350 2    60   ~ 0
 PD0
 $Comp
-L CONN_15 CN1
+L HHKB_controller-rescue:CONN_15 CN1
 U 1 1 51979D97
 P 875 6550
 F 0 "CN1" V 845 6600 60  0000 C CNN
@@ -583,7 +582,7 @@ PB7
 Text Label 1475 6050 0    60   Italic 0
 PD7
 $Comp
-L +5V #PWR017
+L HHKB_controller-rescue:+5V #PWR017
 U 1 1 51979DCA
 P 3275 5450
 F 0 "#PWR017" H 3275 5420 20  0001 C CNN
@@ -600,7 +599,7 @@ VUSB
 Text Label 1650 1900 0    60   Italic 0
 GND
 $Comp
-L GND #PWR018
+L HHKB_controller-rescue:GND #PWR018
 U 1 1 51A7FC37
 P 2200 2450
 F 0 "#PWR018" H 2200 2450 30  0001 C CNN
@@ -611,7 +610,7 @@ F 3 "" H 2200 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L HHKB_controller-rescue:+5V #PWR019
 U 1 1 51A7FC46
 P 2200 1950
 F 0 "#PWR019" H 2200 2040 20  0001 C CNN
@@ -624,7 +623,7 @@ $EndComp
 Text Notes 9900 6500 0    60   Italic 0
 ICSP
 $Comp
-L CONN_3X2 P8
+L HHKB_controller-rescue:CONN_3X2 P8
 U 1 1 51A80544
 P 10000 6200
 F 0 "P8" H 10000 6400 50  0000 C CNN
@@ -659,7 +658,7 @@ RST
 Text Notes 10750 6300 0    60   ~ 0
 GND
 $Comp
-L C C10
+L HHKB_controller-rescue:C C10
 U 1 1 51AD4FB4
 P 9450 1900
 F 0 "C10" H 9500 2000 50  0000 L CNN
@@ -670,7 +669,7 @@ F 3 "" H 9450 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L HHKB_controller-rescue:GND #PWR020
 U 1 1 51AD5139
 P 9450 2200
 F 0 "#PWR020" H 9450 2200 30  0001 C CNN
@@ -703,7 +702,7 @@ PD2
 Text Notes 6750 4650 2    60   ~ 0
 Bluetooth Extension
 $Comp
-L CONN_1 P7
+L HHKB_controller-rescue:CONN_1 P7
 U 1 1 51B4469E
 P 10450 5450
 F 0 "P7" H 10530 5450 40  0000 L CNN
@@ -723,7 +722,7 @@ Text Label 6400 5400 2    60   ~ 0
 PD5
 NoConn ~ 1600 1800
 $Comp
-L MOSFET_N Q2
+L HHKB_controller-rescue:MOSFET_N Q2
 U 1 1 51BB4B25
 P 4675 5900
 F 0 "Q2" H 4685 6070 60  0000 R CNN
@@ -734,7 +733,7 @@ F 3 "" H 4675 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L HHKB_controller-rescue:GND #PWR021
 U 1 1 51BB4B45
 P 4775 6250
 F 0 "#PWR021" H 4775 6250 30  0001 C CNN
@@ -745,7 +744,7 @@ F 3 "" H 4775 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L HHKB_controller-rescue:R R15
 U 1 1 51BB4BFA
 P 4275 5650
 F 0 "R15" V 4355 5650 50  0000 C CNN
@@ -756,7 +755,7 @@ F 3 "" H 4275 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR022
+L HHKB_controller-rescue:+5V #PWR022
 U 1 1 51BB4C0E
 P 4275 5300
 F 0 "#PWR022" H 4275 5390 20  0001 C CNN
@@ -777,7 +776,7 @@ HHKB_GND
 Text Notes 3625 5650 0    60   Italic 0
 Normally On\nLow = Off
 $Comp
-L JUMPER JP3
+L HHKB_controller-rescue:JUMPER JP3
 U 1 1 51BC02F3
 P 5075 5900
 F 0 "JP3" H 5075 6050 60  0000 C CNN
@@ -792,7 +791,7 @@ ADC_LIPO
 Text Label 7275 4925 0    60   ~ 0
 PF0
 $Comp
-L GND #PWR023
+L HHKB_controller-rescue:GND #PWR023
 U 1 1 52AACE12
 P 5075 6250
 F 0 "#PWR023" H 5075 6250 30  0001 C CNN
@@ -807,7 +806,7 @@ PC6
 Text Label 1475 7250 0    60   ~ 0
 PC7
 $Comp
-L JUMPER JP2
+L HHKB_controller-rescue:JUMPER JP2
 U 1 1 5310256F
 P 1625 3700
 F 0 "JP2" H 1625 3850 60  0000 C CNN
@@ -836,7 +835,7 @@ HHKB Matrix Interface
 Text Notes 9000 5150 0    60   ~ 0
 Program and Debug
 $Comp
-L USB_mini_micro_B J1
+L HHKB_controller-rescue:USB_mini_micro_B J1
 U 1 1 53485EB0
 P 1450 1650
 F 0 "J1" H 1050 1600 60  0000 C CNN
@@ -871,7 +870,7 @@ PF4
 Text Notes 2475 1825 0    60   ~ 0
 No PPTC
 $Comp
-L PPTC PPTC1
+L HHKB_controller-rescue:PPTC PPTC1
 U 1 1 5417AF4F
 P 2675 1500
 F 0 "PPTC1" H 2675 1600 50  0000 C CNN
@@ -884,7 +883,7 @@ $EndComp
 Text Label 3450 1500 0    60   ~ 0
 VUSB
 Wire Wire Line
-	1300 2825 1600 2825
+	1300 2825 1375 2825
 Wire Wire Line
 	1300 2725 1600 2725
 Wire Wire Line
@@ -921,7 +920,7 @@ Connection ~ 7900 2300
 Wire Wire Line
 	7800 1500 7900 1500
 Wire Wire Line
-	3950 1800 3950 3850
+	3950 1800 3950 2800
 Wire Wire Line
 	5650 2700 3700 2700
 Wire Wire Line
@@ -939,7 +938,7 @@ Wire Wire Line
 	8700 3800 8700 3850
 Connection ~ 4350 3350
 Wire Wire Line
-	4350 2900 4350 3400
+	4350 2900 4350 3350
 Wire Wire Line
 	4350 2900 5650 2900
 Wire Wire Line
@@ -949,7 +948,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 2500 7800 2500
 Wire Wire Line
-	7800 2400 8450 2400
+	7800 2400 8200 2400
 Connection ~ 8200 1400
 Connection ~ 8200 3400
 Wire Wire Line
@@ -957,20 +956,20 @@ Wire Wire Line
 Wire Wire Line
 	1600 1600 3400 1600
 Wire Wire Line
-	8200 1000 8200 3400
+	8200 1000 8200 1400
 Wire Wire Line
 	8200 3400 7800 3400
 Connection ~ 8200 2400
 Wire Wire Line
 	8450 2400 8450 3400
 Wire Wire Line
-	7800 1400 8700 1400
+	7800 1400 8200 1400
 Wire Wire Line
 	8700 1400 8700 3400
 Wire Wire Line
 	5650 3000 4950 3000
 Wire Wire Line
-	4950 3000 4950 3400
+	4950 3000 4950 3350
 Connection ~ 4950 3350
 Wire Wire Line
 	5650 1900 4150 1900
@@ -990,7 +989,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3850 4350 3800
 Wire Wire Line
-	7900 1500 7900 3850
+	7900 1500 7900 2300
 Wire Wire Line
 	4950 3850 4950 3800
 Wire Wire Line
@@ -1033,14 +1032,14 @@ Wire Wire Line
 Wire Wire Line
 	2275 6950 2475 6950
 Wire Wire Line
-	2475 6950 2475 7300
+	2475 6950 2475 7050
 Wire Wire Line
 	2275 7050 2475 7050
 Connection ~ 2475 7050
 Wire Wire Line
 	2475 5950 2275 5950
 Wire Wire Line
-	2475 5600 2475 5950
+	2475 5600 2475 5850
 Wire Wire Line
 	2275 5850 2475 5850
 Connection ~ 2475 5850
@@ -1094,7 +1093,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1900 1900 1900
 Wire Wire Line
-	1900 1900 1900 2100
+	1900 1900 1900 2000
 Wire Wire Line
 	2200 1950 2200 2000
 Wire Wire Line
@@ -1136,15 +1135,15 @@ Connection ~ 4275 5900
 Wire Wire Line
 	4775 5700 4775 5550
 Wire Wire Line
-	4775 5550 5275 5550
+	4775 5550 5075 5550
 Wire Wire Line
-	3575 5900 4475 5900
+	3575 5900 4275 5900
 Connection ~ 2475 7300
 Connection ~ 2475 5600
 Wire Wire Line
 	3275 5600 3275 5450
 Wire Wire Line
-	1425 5600 3275 5600
+	1425 5600 2475 5600
 Wire Wire Line
 	5075 5600 5075 5550
 Connection ~ 5075 5550
@@ -1160,9 +1159,9 @@ Wire Wire Line
 Wire Wire Line
 	1225 7250 1675 7250
 Wire Wire Line
-	1925 3700 2475 3700
+	1925 3700 2275 3700
 Wire Wire Line
-	3700 2300 3700 3400
+	3700 2300 3700 2700
 Connection ~ 2275 3700
 Wire Wire Line
 	2275 3700 2275 3500
@@ -1185,13 +1184,13 @@ Wire Wire Line
 Wire Wire Line
 	7275 5225 7675 5225
 Wire Wire Line
-	1425 5950 1425 5600
+	1425 5950 1425 5850
 Wire Wire Line
-	1425 7300 3350 7300
+	1425 7300 2475 7300
 Wire Wire Line
-	1425 6950 1425 7300
+	1425 6950 1425 7050
 Wire Wire Line
-	5650 2000 4450 2000
+	5650 2000 5200 2000
 Wire Wire Line
 	4450 2000 4450 1500
 Connection ~ 4450 1500
@@ -1209,7 +1208,7 @@ Wire Wire Line
 	5200 1500 5200 2000
 Connection ~ 5200 2000
 $Comp
-L XTAL X1
+L HHKB_controller-rescue:XTAL X1
 U 1 1 5453AC44
 P 4650 3350
 F 0 "X1" H 4650 3500 60  0000 C CNN
@@ -1220,7 +1219,7 @@ F 3 "" H 4650 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG024
+L HHKB_controller-rescue:PWR_FLAG #FLG024
 U 1 1 5453B6D9
 P 4450 1500
 F 0 "#FLG024" H 4450 1770 30  0001 C CNN
@@ -1231,7 +1230,7 @@ F 3 "" H 4450 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P10
+L HHKB_controller-rescue:CONN_1 P10
 U 1 1 5485F22B
 P 2875 5450
 F 0 "P10" H 2955 5450 40  0000 L CNN
@@ -1242,7 +1241,7 @@ F 3 "" H 2875 5450 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P9
+L HHKB_controller-rescue:CONN_1 P9
 U 1 1 5485F339
 P 2775 5450
 F 0 "P9" H 2855 5450 40  0000 L CNN
@@ -1257,7 +1256,7 @@ Current mesure
 Connection ~ 2875 5600
 Connection ~ 2775 5600
 $Comp
-L CONN_1 P11
+L HHKB_controller-rescue:CONN_1 P11
 U 1 1 54865141
 P 1150 2925
 F 0 "P11" H 1230 2925 40  0000 L CNN
@@ -1275,5 +1274,55 @@ Connection ~ 1375 2825
 Text Notes 1475 2950 0    60   ~ 0
 Current measure
 Wire Wire Line
-	2925 1500 4675 1500
+	2925 1500 4450 1500
+Wire Wire Line
+	7900 2300 7900 3500
+Wire Wire Line
+	3700 2700 3700 3400
+Wire Wire Line
+	4350 3350 4350 3400
+Wire Wire Line
+	8200 1400 8200 2400
+Wire Wire Line
+	8200 1400 8700 1400
+Wire Wire Line
+	8200 2400 8450 2400
+Wire Wire Line
+	8200 2400 8200 3400
+Wire Wire Line
+	4950 3350 4950 3400
+Wire Wire Line
+	3950 2800 3950 3850
+Wire Wire Line
+	7900 3500 7900 3850
+Wire Wire Line
+	2475 7050 2475 7300
+Wire Wire Line
+	2475 5850 2475 5950
+Wire Wire Line
+	1425 5850 1425 5600
+Wire Wire Line
+	1900 2000 1900 2100
+Wire Wire Line
+	4275 5900 4475 5900
+Wire Wire Line
+	2475 7300 3350 7300
+Wire Wire Line
+	2475 5600 2775 5600
+Wire Wire Line
+	5075 5550 5275 5550
+Wire Wire Line
+	1425 7050 1425 7300
+Wire Wire Line
+	2275 3700 2475 3700
+Wire Wire Line
+	4450 1500 4675 1500
+Wire Wire Line
+	5200 2000 4450 2000
+Wire Wire Line
+	2875 5600 3275 5600
+Wire Wire Line
+	2775 5600 2875 5600
+Wire Wire Line
+	1375 2825 1600 2825
 $EndSCHEMATC

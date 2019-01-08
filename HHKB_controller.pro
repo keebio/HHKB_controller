@@ -1,4 +1,4 @@
-update=Thu 30 Oct 2014 23:03:42 JST
+update=Monday, January 07, 2019 at 11:11:15 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,21 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=library
-NetFmtName=PcbnewAdvanced
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=keyboard_parts
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -43,3 +28,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.3
+[eeschema]
+version=1
+LibDir=
