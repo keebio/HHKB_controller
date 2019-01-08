@@ -393,12 +393,12 @@ $EndComp
 $Comp
 L HHKB_controller-rescue:CONN_1 P5
 U 1 1 517F61E2
-P 10450 5250
-F 0 "P5" H 10530 5250 40  0000 L CNN
-F 1 "PD1" H 10450 5305 30  0001 C CNN
-F 2 "keyboard_parts:PIN_1" H 10450 5250 60  0001 C CNN
-F 3 "" H 10450 5250 60  0000 C CNN
-	1    10450 5250
+P 10700 5100
+F 0 "P5" H 10780 5100 40  0000 L CNN
+F 1 "PD1" H 10700 5155 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 10700 5100 60  0001 C CNN
+F 3 "" H 10700 5100 60  0000 C CNN
+	1    10700 5100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -537,20 +537,20 @@ Text Notes 2825 6750 0    60   Italic 0
 COL bit2
 Text Notes 2825 6850 0    60   Italic 0
 COL enable
-Text Label 10900 5250 2    60   ~ 0
+Text Label 11150 5100 2    60   ~ 0
 PD1
 $Comp
 L HHKB_controller-rescue:CONN_1 P6
 U 1 1 517F61D5
-P 10450 5350
-F 0 "P6" H 10530 5350 40  0000 L CNN
-F 1 "PD0" H 10450 5405 30  0001 C CNN
-F 2 "keyboard_parts:PIN_1" H 10450 5350 60  0001 C CNN
-F 3 "" H 10450 5350 60  0000 C CNN
-	1    10450 5350
+P 10700 5200
+F 0 "P6" H 10780 5200 40  0000 L CNN
+F 1 "PD0" H 10700 5255 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 10700 5200 60  0001 C CNN
+F 3 "" H 10700 5200 60  0000 C CNN
+	1    10700 5200
 	-1   0    0    1   
 $EndComp
-Text Label 10900 5350 2    60   ~ 0
+Text Label 11150 5200 2    60   ~ 0
 PD0
 $Comp
 L HHKB_controller-rescue:CONN_15 CN1
@@ -704,17 +704,17 @@ Bluetooth Extension
 $Comp
 L HHKB_controller-rescue:CONN_1 P7
 U 1 1 51B4469E
-P 10450 5450
-F 0 "P7" H 10530 5450 40  0000 L CNN
-F 1 "GND" H 10450 5505 30  0001 C CNN
-F 2 "keyboard_parts:PIN_1" H 10450 5450 60  0001 C CNN
-F 3 "" H 10450 5450 60  0000 C CNN
-	1    10450 5450
+P 10700 5300
+F 0 "P7" H 10780 5300 40  0000 L CNN
+F 1 "GND" H 10700 5355 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 10700 5300 60  0001 C CNN
+F 3 "" H 10700 5300 60  0000 C CNN
+	1    10700 5300
 	-1   0    0    1   
 $EndComp
-Text Label 10900 5450 2    60   ~ 0
+Text Label 11150 5300 2    60   ~ 0
 GND
-Text Notes 10850 5650 2    60   ~ 0
+Text Notes 11100 5500 2    60   ~ 0
 For Debug
 Text GLabel 6600 5250 2    60   Input ~ 0
 BT_RTS
@@ -879,7 +879,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2525 1600 2525
 Wire Wire Line
-	10600 5250 10900 5250
+	10850 5100 11150 5100
 Wire Wire Line
 	5650 1400 5400 1400
 Wire Wire Line
@@ -1040,7 +1040,7 @@ Wire Wire Line
 Wire Wire Line
 	2275 6850 2725 6850
 Wire Wire Line
-	10600 5350 10900 5350
+	10850 5200 11150 5200
 Wire Wire Line
 	1225 6050 1675 6050
 Wire Wire Line
@@ -1099,7 +1099,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4900 6200 4900
 Wire Wire Line
-	10600 5450 10900 5450
+	10850 5300 11150 5300
 Wire Wire Line
 	6600 5250 6200 5250
 Wire Wire Line
@@ -1289,7 +1289,7 @@ Wire Wire Line
 Wire Wire Line
 	1375 2825 1600 2825
 $Comp
-L device:Crystal_GND24 X1
+L HHKB_controller-rescue:Crystal_GND24-device X1
 U 1 1 5C363598
 P 4650 3400
 F 0 "X1" H 4800 3500 50  0000 L CNN
@@ -1428,4 +1428,51 @@ Wire Wire Line
 	1650 1300 1650 1350
 NoConn ~ 1150 1200
 NoConn ~ 1150 1800
+$Comp
+L Tag-Connect:TC2030-IDC P16
+U 1 1 5C35A825
+P 10000 5750
+F 0 "P16" H 10000 6042 40  0000 C CNN
+F 1 "TC2030-IDC" H 10000 5966 40  0000 C CNN
+F 2 "Tag-Connect:TC2030-NL_SMALL" H 10000 5750 50  0001 C CNN
+F 3 "" H 10000 5750 50  0001 C CNN
+	1    10000 5750
+	1    0    0    -1  
+$EndComp
+Text Label 9450 5650 0    60   Italic 0
+PB3
+Text Label 9450 5750 0    60   Italic 0
+PB1
+Text Label 9450 5850 0    60   Italic 0
+~RESET
+Text Notes 9200 5650 0    60   ~ 0
+MISO
+Text Notes 9200 5750 0    60   ~ 0
+SCK
+Text Notes 9200 5850 0    60   ~ 0
+RST
+Wire Wire Line
+	9750 5650 9450 5650
+Wire Wire Line
+	9750 5750 9450 5750
+Wire Wire Line
+	9750 5850 9450 5850
+Text Label 10350 5750 0    60   Italic 0
+PB2
+Text Label 10350 5850 0    60   Italic 0
+GND
+Text Label 10350 5650 0    60   Italic 0
++5V
+Text Notes 10600 5650 0    60   ~ 0
+VTG
+Text Notes 10600 5750 0    60   ~ 0
+MOSI
+Text Notes 10600 5850 0    60   ~ 0
+GND
+Wire Wire Line
+	10250 5650 10550 5650
+Wire Wire Line
+	10250 5750 10550 5750
+Wire Wire Line
+	10250 5850 10550 5850
 $EndSCHEMATC
