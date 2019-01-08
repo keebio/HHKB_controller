@@ -116,12 +116,12 @@ $EndComp
 $Comp
 L HHKB_controller-rescue:GND #PWR04
 U 1 1 4EBA3538
-P 1900 2100
-F 0 "#PWR04" H 1900 2100 30  0001 C CNN
-F 1 "GND" H 1900 2030 30  0001 C CNN
-F 2 "" H 1900 2100 60  0001 C CNN
-F 3 "" H 1900 2100 60  0001 C CNN
-	1    1900 2100
+P 1450 2300
+F 0 "#PWR04" H 1450 2300 30  0001 C CNN
+F 1 "GND" H 1450 2230 30  0001 C CNN
+F 2 "" H 1450 2300 60  0001 C CNN
+F 3 "" H 1450 2300 60  0001 C CNN
+	1    1450 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -596,7 +596,7 @@ Text Notes 625  7550 0    60   Italic 0
 Hirose DF14A for JP
 Text Label 5400 2000 0    60   Italic 0
 VUSB
-Text Label 1650 1900 0    60   Italic 0
+Text Label 1200 2100 0    60   Italic 0
 GND
 $Comp
 L HHKB_controller-rescue:GND #PWR018
@@ -720,7 +720,6 @@ Text GLabel 6600 5250 2    60   Input ~ 0
 BT_RTS
 Text Label 6400 5400 2    60   ~ 0
 PD5
-NoConn ~ 1600 1800
 $Comp
 L HHKB_controller-rescue:MOSFET_N Q2
 U 1 1 51BB4B25
@@ -834,17 +833,6 @@ Text Notes 625  5150 0    60   ~ 0
 HHKB Matrix Interface
 Text Notes 9000 5150 0    60   ~ 0
 Program and Debug
-$Comp
-L HHKB_controller-rescue:USB_mini_micro_B J1
-U 1 1 53485EB0
-P 1450 1650
-F 0 "J1" H 1050 1600 60  0000 C CNN
-F 1 "USB_mini_micro_B" H 1300 1900 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_new" H 1400 1650 60  0001 C CNN
-F 3 "" H 1400 1650 60  0000 C CNN
-	1    1450 1650
-	1    0    0    -1  
-$EndComp
 Text GLabel 6600 5875 2    60   Input ~ 0
 BT_CONN
 Text Label 6200 5875 0    60   ~ 0
@@ -936,9 +924,6 @@ Wire Wire Line
 	8200 3850 8200 3800
 Wire Wire Line
 	8700 3800 8700 3850
-Connection ~ 4350 3350
-Wire Wire Line
-	4350 2900 4350 3350
 Wire Wire Line
 	4350 2900 5650 2900
 Wire Wire Line
@@ -952,10 +937,6 @@ Wire Wire Line
 Connection ~ 8200 1400
 Connection ~ 8200 3400
 Wire Wire Line
-	1600 1700 3400 1700
-Wire Wire Line
-	1600 1600 3400 1600
-Wire Wire Line
 	8200 1000 8200 1400
 Wire Wire Line
 	8200 3400 7800 3400
@@ -968,9 +949,6 @@ Wire Wire Line
 	8700 1400 8700 3400
 Wire Wire Line
 	5650 3000 4950 3000
-Wire Wire Line
-	4950 3000 4950 3350
-Connection ~ 4950 3350
 Wire Wire Line
 	5650 1900 4150 1900
 Wire Wire Line
@@ -1091,9 +1069,9 @@ Wire Wire Line
 Wire Wire Line
 	5200 1500 5650 1500
 Wire Wire Line
-	1600 1900 1900 1900
+	1150 2100 1450 2100
 Wire Wire Line
-	1900 1900 1900 2000
+	1450 2100 1450 2200
 Wire Wire Line
 	2200 1950 2200 2000
 Wire Wire Line
@@ -1125,8 +1103,8 @@ Wire Wire Line
 Wire Wire Line
 	6600 5250 6200 5250
 Wire Wire Line
-	1600 2000 1900 2000
-Connection ~ 1900 2000
+	1150 2200 1450 2200
+Connection ~ 1450 2200
 Wire Wire Line
 	4775 6250 4775 6100
 Wire Wire Line
@@ -1208,17 +1186,6 @@ Wire Wire Line
 	5200 1500 5200 2000
 Connection ~ 5200 2000
 $Comp
-L HHKB_controller-rescue:XTAL X1
-U 1 1 5453AC44
-P 4650 3350
-F 0 "X1" H 4650 3500 60  0000 C CNN
-F 1 "16MHz" H 4650 3200 60  0000 C CNN
-F 2 "keyboard_parts:HC-49_SMT" H 4650 3350 60  0001 C CNN
-F 3 "" H 4650 3350 60  0000 C CNN
-	1    4650 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L HHKB_controller-rescue:PWR_FLAG #FLG024
 U 1 1 5453B6D9
 P 4450 1500
@@ -1280,8 +1247,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 2700 3700 3400
 Wire Wire Line
-	4350 3350 4350 3400
-Wire Wire Line
 	8200 1400 8200 2400
 Wire Wire Line
 	8200 1400 8700 1400
@@ -1289,8 +1254,6 @@ Wire Wire Line
 	8200 2400 8450 2400
 Wire Wire Line
 	8200 2400 8200 3400
-Wire Wire Line
-	4950 3350 4950 3400
 Wire Wire Line
 	3950 2800 3950 3850
 Wire Wire Line
@@ -1302,7 +1265,7 @@ Wire Wire Line
 Wire Wire Line
 	1425 5850 1425 5600
 Wire Wire Line
-	1900 2000 1900 2100
+	1450 2200 1450 2300
 Wire Wire Line
 	4275 5900 4475 5900
 Wire Wire Line
@@ -1325,4 +1288,144 @@ Wire Wire Line
 	2775 5600 2875 5600
 Wire Wire Line
 	1375 2825 1600 2825
+$Comp
+L device:Crystal_GND24 X1
+U 1 1 5C363598
+P 4650 3400
+F 0 "X1" H 4800 3500 50  0000 L CNN
+F 1 "16MHz" H 4700 3300 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 4650 3400 50  0001 C CNN
+F 3 "~" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2900 4350 3400
+Wire Wire Line
+	4950 3000 4950 3400
+Wire Wire Line
+	4800 3400 4950 3400
+Connection ~ 4950 3400
+Wire Wire Line
+	4500 3400 4350 3400
+Connection ~ 4350 3400
+$Comp
+L HHKB_controller-rescue:GND #PWR0101
+U 1 1 5C3994F0
+P 4650 3600
+F 0 "#PWR0101" H 4650 3600 30  0001 C CNN
+F 1 "GND" H 4650 3530 30  0001 C CNN
+F 2 "" H 4650 3600 60  0001 C CNN
+F 3 "" H 4650 3600 60  0001 C CNN
+	1    4650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L HHKB_controller-rescue:GND #PWR0102
+U 1 1 5C39988A
+P 4750 3150
+F 0 "#PWR0102" H 4750 3150 30  0001 C CNN
+F 1 "GND" H 4750 3080 30  0001 C CNN
+F 2 "" H 4750 3150 60  0001 C CNN
+F 3 "" H 4750 3150 60  0001 C CNN
+	1    4750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3200 4650 3100
+Wire Wire Line
+	4650 3100 4750 3100
+Wire Wire Line
+	4750 3100 4750 3150
+$Comp
+L keebio:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5C3A5CA3
+P 1050 1550
+F 0 "USB1" H 883 2347 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 650 1500 60  0000 C CNN
+F 2 "Keebio-Parts:HRO-TYPE-C-31-M-12-Assembly" H 1050 1550 60  0001 C CNN
+F 3 "" H 1050 1550 60  0001 C CNN
+	1    1050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1600 1350 1600
+Wire Wire Line
+	1150 1700 1250 1700
+Wire Wire Line
+	1150 1500 1250 1500
+Wire Wire Line
+	1250 1500 1250 1700
+Connection ~ 1250 1700
+Wire Wire Line
+	1250 1700 3400 1700
+Wire Wire Line
+	1150 1400 1350 1400
+Wire Wire Line
+	1350 1400 1350 1600
+Connection ~ 1350 1600
+Wire Wire Line
+	1350 1600 3400 1600
+Text Label 1150 2000 0    60   ~ 0
+VUSB_RAW
+Wire Wire Line
+	1150 2000 1450 2000
+Text Label 1150 1100 0    60   ~ 0
+VUSB_RAW
+Wire Wire Line
+	1150 1100 1450 1100
+Text Label 1150 1000 0    60   Italic 0
+GND
+Wire Wire Line
+	1150 1000 1450 1000
+$Comp
+L HHKB_controller-rescue:R R29
+U 1 1 5C45A0B0
+P 1400 1900
+F 0 "R29" V 1450 2100 50  0000 C CNN
+F 1 "5.1k" V 1400 1900 50  0000 C CNN
+F 2 "keyboard_parts:R_1608" H 1400 1900 60  0001 C CNN
+F 3 "" H 1400 1900 60  0001 C CNN
+	1    1400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L HHKB_controller-rescue:R R28
+U 1 1 5C45B8AB
+P 1400 1300
+F 0 "R28" V 1450 1500 50  0000 C CNN
+F 1 "5.1k" V 1400 1300 50  0000 C CNN
+F 2 "keyboard_parts:R_1608" H 1400 1300 60  0001 C CNN
+F 3 "" H 1400 1300 60  0001 C CNN
+	1    1400 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L HHKB_controller-rescue:GND #PWR0103
+U 1 1 5C45D769
+P 1650 1950
+F 0 "#PWR0103" H 1650 1950 30  0001 C CNN
+F 1 "GND" H 1650 1880 30  0001 C CNN
+F 2 "" H 1650 1950 60  0000 C CNN
+F 3 "" H 1650 1950 60  0000 C CNN
+	1    1650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1900 1650 1950
+$Comp
+L HHKB_controller-rescue:GND #PWR0104
+U 1 1 5C469F78
+P 1650 1350
+F 0 "#PWR0104" H 1650 1350 30  0001 C CNN
+F 1 "GND" H 1650 1280 30  0001 C CNN
+F 2 "" H 1650 1350 60  0000 C CNN
+F 3 "" H 1650 1350 60  0000 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1300 1650 1350
+NoConn ~ 1150 1200
+NoConn ~ 1150 1800
 $EndSCHEMATC
